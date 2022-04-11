@@ -21,6 +21,6 @@ export default function Favorito() {
     </div>
         </main>
       </>
-      
+       
     );
   }
