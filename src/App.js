@@ -1,4 +1,4 @@
-import { Layout, Home, About, Gallery } from "./components";
+import { Layout, Inicio, Mas, Favorito } from "./components";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -6,9 +6,9 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="galeria" element={<Gallery />} />
-        <Route path="acerca" element={<About />} />
+        <Route path="/" element={<Inicio />} />
+        <Route path="galeria" element={<Favorito />} />
+        <Route path="acerca" element={<Mas />} />
       </Routes>
     </Layout>
   );

@@ -39,10 +39,13 @@ export default function Layout(props) {
   return (
     <div className="App">
       <header>
-        <h1> PWA</h1>
+        <center>
+        <h1>ACTIVIDAD DE PWA</h1>
+        
         {isReadyForInstall && (
           <button onClick={downloadApp}> Descargada </button>
         )}
+        </center>
       </header>
 
       <nav>
